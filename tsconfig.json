@@ -19,6 +19,9 @@
       "dom"
     ]
   },
+  "paths": {
+    "@components": ["app/shared/components/*"],
+  },
   "angularCompilerOptions": {
     "fullTemplateTypeCheck": true,
     "strictInjectionParameters": true
