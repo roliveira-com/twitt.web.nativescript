@@ -1,6 +1,6 @@
 # TwitWebNativescript
 
-This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 8.3.21.
+A Web and Native app for reading tweets. This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 8.3.21.
 
 ## Development server
 
@@ -25,3 +25,10 @@ Run `ng e2e` to execute the end-to-end tests via [Protractor](http://www.protrac
 ## Further help
 
 To get more help on the Angular CLI use `ng help` or go check out the [Angular CLI README](https://github.com/angular/angular-cli/blob/master/README.md).
+
+## Icons
+**Icon Reference**
+See a list of all [Material Icons](https://material.io/resources/icons/?icon=open_with&style=outline) available for use.
+
+**Icon Configuration**
+Check the [installation guide](https://google.github.io/material-design-icons/#icon-font-for-the-web) of Material Icons for the web.
