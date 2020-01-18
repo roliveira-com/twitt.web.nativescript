@@ -2,17 +2,20 @@ import { NgModule } from '@angular/core';
 import { CommonModule } from '@angular/common';
 
 import { NavbarComponent } from './navbar/navbar.component';
+import { TweetCardComponent } from './tweet-card/tweet-card.component';
 
 
 @NgModule({
   declarations: [
-    NavbarComponent
+    NavbarComponent,
+    TweetCardComponent
   ],
   imports: [
     CommonModule
   ],
   exports: [
-    NavbarComponent
+    NavbarComponent,
+    TweetCardComponent
   ]
 })
 export class ComponentsModule { }
