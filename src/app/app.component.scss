@@ -1,0 +1,21 @@
+.header-menu {
+  background-color: cadetblue;
+  padding: 15px;
+
+  &__item {
+    color: #FFF;
+    font-weight: bold;
+    padding: 18px 30px;
+    border-bottom: 0;
+
+    &:not(last-child) {
+      margin-right: 10px;
+    }
+
+    &.active,
+    &:hover {
+      padding: 18px 30px 15px;
+      border-bottom: 3px solid #FFF;
+    }
+  }
+}
