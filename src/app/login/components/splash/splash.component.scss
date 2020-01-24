@@ -1,4 +1,4 @@
-.login {
+.splash {
   position: relative;
   display: flex;
   align-items: center;
@@ -8,16 +8,23 @@
     position: absolute;
     width: 90%;
     height: 90vh;
-    right: 0;
+    left: 0;
     top: 50%;
-    transform: translateY(-50%);  
+    transform: translateY(-50%);
     background-color: tomato;
     z-index: 1;
   }
 
-  &__content{
+  &__content {
+    width: 100vw;
     position: relative;
     z-index: 2;
+    text-align: center;
+
+    .icon {
+      font-size: 56px;
+      color: white;
+    }
 
     h1 {
       font-size: 48px;

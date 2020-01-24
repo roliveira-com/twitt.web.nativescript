@@ -2,6 +2,7 @@ import { NgModule } from '@angular/core';
 import { Routes, RouterModule } from '@angular/router';
 
 import { LoginComponent } from './login/login.component';
+import { SplashComponent } from './login/components/splash/splash.component';
 
 const routes: Routes = [
   {
@@ -11,7 +12,13 @@ const routes: Routes = [
   },
   {
     path: 'login',
-    component: LoginComponent
+    component: LoginComponent,
+    data: { animation: 'login' }
+  },
+  {
+    path: 'splash',
+    component: SplashComponent,
+    data: { animation: 'splash' }
   },
   {
     path: 'tweets',

@@ -1,4 +1,4 @@
-<app-navbar></app-navbar>
+<!-- <app-navbar></app-navbar>
 <header class="header-menu">
   <div class="container">
     <section class="columns is-centered">
@@ -8,7 +8,7 @@
       </div>
     </section>
   </div>
-</header>
+</header> -->
 <!-- <section class="section">
   <div class="container">
     <section class="columns is-centered">
@@ -19,4 +19,6 @@
     </section>
   </div>
 </section> -->
-<router-outlet></router-outlet>
+<div [@routeAnimation]="routeAnimationData(outlet)">
+  <router-outlet #outlet="outlet"></router-outlet>
+</div>
